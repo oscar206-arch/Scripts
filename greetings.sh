@@ -1,5 +1,4 @@
 #!bin/bash
-
 greetings="Hello, World!"
 name="Alice"
 full_greetings="$greetings,$name!"
