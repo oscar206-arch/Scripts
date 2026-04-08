@@ -1,0 +1,36 @@
+# Compiled or temporary files
+*.out
+*.o
+*.obj
+*.exe
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.*
+
+# Generated files
+*.pid
+*.seed
+*.pid.lock
+
+# Shell history (never commit your personal history!)
+.bash_history
+.zsh_history
+
+# Local test/output directories
+output/
+tmp/
