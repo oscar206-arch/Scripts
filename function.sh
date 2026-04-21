@@ -1,5 +1,6 @@
 #!/bin/bash
-my_function() {
-    echo "Hello from WSL!"
+greetings() {
+    local name=$1
+    echo "Hello, $name!"
 }
-my_function
+greetings "Alice"
