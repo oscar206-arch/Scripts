@@ -1,6 +1,8 @@
 #!/bin/bash
-greetings() {
-    local name=$1
-    echo "Hello, $name!"
+add() {
+    local sum=$(( $1 + $2 ))
+    echo $sum
 }
-greetings "Alice"
+result=$(add 5 10)
+echo "The sum is: $result"
+
