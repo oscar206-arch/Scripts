@@ -1,4 +1,5 @@
 #!/bin/bash
-for i in {1..5} ; do
-    echo "Iteration $i"
+fruits="apple banana cherry"
+for fruit in $fruits; do
+    echo "The fruit is $fruit"
 done
